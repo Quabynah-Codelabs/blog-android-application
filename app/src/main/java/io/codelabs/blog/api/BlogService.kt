@@ -2,10 +2,7 @@ package io.codelabs.blog.api
 
 import io.codelabs.blog.model.Blog
 import io.codelabs.sdk.util.network.RetrofitLiveData
-import retrofit2.http.Body
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.Path
+import retrofit2.http.*
 
 interface BlogService {
 
@@ -21,5 +18,9 @@ interface BlogService {
 
     @GET("/blogs/{key}")
     fun getBlogByKey(@Path("key") key: String): RetrofitLiveData<Blog>
+
+    @DELETE("/blogs/{key}")
+    fun deleteBlog(@Path("key") key: String)
+
 
 }

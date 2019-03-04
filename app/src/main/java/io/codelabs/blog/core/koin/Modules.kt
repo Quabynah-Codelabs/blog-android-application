@@ -1,5 +1,6 @@
 package io.codelabs.blog.core.koin
 
+import io.codelabs.blog.api.BlogApiService
 import io.codelabs.blog.core.BlogApplication
 import io.codelabs.blog.core.UserDatabase
 import io.codelabs.blog.core.room.BlogAppDatabase
@@ -14,4 +15,9 @@ val roomModule = module {
 /*Shared Preferences Module DSL*/
 val databaseModule = module {
     single { UserDatabase.getInstance(androidContext() as BlogApplication) }
+}
+
+/*Network Module DSL*/
+val networkModule = module {
+    single { BlogApiService.getInstance().provideService() }
 }

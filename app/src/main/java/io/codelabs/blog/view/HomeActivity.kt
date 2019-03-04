@@ -8,6 +8,7 @@ import io.codelabs.blog.R
 import io.codelabs.blog.core.BlogRootActivity
 import io.codelabs.blog.databinding.ActivityHomeBinding
 import io.codelabs.blog.util.intentTo
+import io.codelabs.sdk.util.debugLog
 
 class HomeActivity : BlogRootActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -18,6 +19,8 @@ class HomeActivity : BlogRootActivity() {
         setSupportActionBar(binding.bottomAppBar)
 
         binding.fab.setOnClickListener { intentTo(CreateBlogActivity::class.java) }
+
+        debugLog(blogService)
     }
 
     override fun onPause() {

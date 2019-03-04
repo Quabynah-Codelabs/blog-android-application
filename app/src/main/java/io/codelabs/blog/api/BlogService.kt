@@ -1,6 +1,7 @@
 package io.codelabs.blog.api
 
 import io.codelabs.blog.model.Blog
+import io.codelabs.blog.model.User
 import io.codelabs.sdk.util.network.RetrofitLiveData
 import retrofit2.http.*
 
@@ -26,5 +27,14 @@ interface BlogService {
 
     @GET("/api")
     fun getTestData(): RetrofitLiveData<TestData>
+
+    @POST("/users/create")
+    fun createUser(@Body user: User): RetrofitLiveData<Void>
+
+    @GET("/users/{key}")
+    fun getCurrentUser(@Path("key") key: String): RetrofitLiveData<User>
+
+    @PUT("/users/{key}")
+    fun updateUser(@Path("key") key: String, user: User): RetrofitLiveData<User>
 
 }

@@ -26,8 +26,9 @@
                                                                android:layout_gravity="bottom|center_horizontal"
                                                                app:fabAlignmentMode="center"
                                                                app:logo="@drawable/logo_white_large"
-                                                               style="@style/BlogAppTheme.BottomBar"
-                                                               app:navigationIcon="@drawable/ic_arrow_drop_up"/>
+                                                               android:theme="@style/BlogAppTheme.AppbarOverlay"
+                                                               app:popupTheme="@style/BlogAppTheme.PopupOverlay"
+                                                               style="@style/BlogAppTheme.BottomBar"/>
 
         <!--FAB-->
         <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab"

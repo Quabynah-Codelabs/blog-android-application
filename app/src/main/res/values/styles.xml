@@ -128,5 +128,11 @@
 
     <style name="BlogAppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
 
+    <style name="BlogAppTheme.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/BlogAppTheme.SubTitle2</item>
+        <item name="passwordToggleDrawable">@drawable/asl_password_visibility</item>
+        <item name="android:fontFamily">@font/work_sans_medium</item>
+    </style>
+
 
 </resources>

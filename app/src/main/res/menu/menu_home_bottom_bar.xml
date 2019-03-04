@@ -6,4 +6,34 @@
           android:icon="@drawable/ic_search"
           app:showAsAction="ifRoom"/>
 
+    <item android:id="@+id/menu_inbox"
+          android:title="@string/inbox"
+          android:icon="@drawable/inbox"
+          app:showAsAction="never|withText"/>
+
+    <item android:id="@+id/menu_starred"
+          android:title="@string/starred"
+          android:icon="@drawable/ic_star_dark"
+          app:showAsAction="never|withText"/>
+
+    <item android:id="@+id/menu_sent"
+          android:title="@string/sent"
+          android:icon="@drawable/send"
+          app:showAsAction="never|withText"/>
+
+    <item android:id="@+id/menu_trash"
+          android:title="@string/trash"
+          android:icon="@drawable/delete"
+          app:showAsAction="never|withText"/>
+
+    <item android:id="@+id/menu_spam"
+          android:title="@string/spam"
+          android:icon="@drawable/report"
+          app:showAsAction="never|withText"/>
+
+    <item android:id="@+id/menu_drafts"
+          android:title="@string/drafts"
+          android:icon="@drawable/drafts"
+          app:showAsAction="never|withText"/>
+
 </menu>

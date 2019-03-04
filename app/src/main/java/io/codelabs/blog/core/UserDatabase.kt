@@ -32,6 +32,8 @@ class UserDatabase private constructor(context: Context) {
         get() = prefs.getString(KEY_USER_KEY, null)
         set(value) {
             field = value
+
+            isLoggedIn = !value.isNullOrEmpty()
             prefs.edit {
                 putString(KEY_USER_KEY, value)
                 commit()

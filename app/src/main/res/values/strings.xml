@@ -4,4 +4,14 @@
     <string name="transition_fab">transition_fab</string>
     <string name="add_to_drafts">Add to Drafts</string>
     <string name="archive">Archive</string>
+    <string name="login_prompt">Login to get started</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email_address">Email Address</string>
+    <string name="inbox">Inbox</string>
+    <string name="starred">Starred</string>
+    <string name="sent">Sent</string>
+    <string name="trash">Trash</string>
+    <string name="spam">Spam</string>
+    <string name="drafts">Drafts</string>
 </resources>

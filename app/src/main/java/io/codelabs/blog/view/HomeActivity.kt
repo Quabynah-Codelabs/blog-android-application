@@ -28,6 +28,12 @@ class HomeActivity : BlogRootActivity() {
             }
         })
 
+        // Observe user instance
+        if (database.isLoggedIn) {
+            dao.getCurrentUser(database.key!!).observeForever {
+                debugLog("Current User: $it")
+            }
+        }
     }
 
     override fun onPause() {

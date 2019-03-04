@@ -9,8 +9,8 @@
         <com.google.android.material.button.MaterialButton android:layout_width="wrap_content"
                                                            android:layout_height="wrap_content"
                                                            style="@style/BlogAppTheme.Button"
-                                                           android:text="Compose"
-                                                           app:icon="@drawable/ic_edit"
+                                                           android:text="Post New Blog"
+                                                           app:icon="@drawable/send"
                                                            app:layout_constraintBottom_toBottomOf="parent"
                                                            app:layout_constraintEnd_toEndOf="parent"/>
 

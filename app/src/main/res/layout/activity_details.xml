@@ -36,7 +36,7 @@
 
         <!--FAB-->
         <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab"
-                                                                               android:src="@drawable/ic_reply"
+                                                                               android:src="@drawable/create"
                                                                                style="@style/BlogAppTheme.FAB"
                                                                                android:transitionName="@string/transition_fab"
                                                                                app:backgroundTint="@color/colorSecondary"

@@ -24,7 +24,7 @@ interface BlogService {
     @DELETE("/blogs/{key}")
     fun deleteBlog(@Path("key") key: String)
 
-    @GET("/helloWorld")
+    @GET("/api")
     fun getTestData(): RetrofitLiveData<TestData>
 
 }

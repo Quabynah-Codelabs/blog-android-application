@@ -10,6 +10,8 @@ interface BlogService {
         const val BASE_URL = "https://us-central1-blog-android-application.cloudfunctions.net/"
     }
 
+    data class TestData(val message: String)
+
     @POST("/blogs/create")
     fun createBlog(@Body blog: Blog): RetrofitLiveData<Void>
 
@@ -22,5 +24,7 @@ interface BlogService {
     @DELETE("/blogs/{key}")
     fun deleteBlog(@Path("key") key: String)
 
+    @GET("/helloWorld")
+    fun getTestData(): RetrofitLiveData<TestData>
 
 }

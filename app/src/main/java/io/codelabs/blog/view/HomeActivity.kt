@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import io.codelabs.blog.R
 import io.codelabs.blog.core.BlogRootActivity
 import io.codelabs.blog.databinding.ActivityHomeBinding
 import io.codelabs.blog.util.intentTo
 import io.codelabs.sdk.util.debugLog
+import io.codelabs.sdk.util.network.Outcome
 
 class HomeActivity : BlogRootActivity() {
     private lateinit var binding: ActivityHomeBinding
@@ -20,7 +22,12 @@ class HomeActivity : BlogRootActivity() {
 
         binding.fab.setOnClickListener { intentTo(CreateBlogActivity::class.java) }
 
-        debugLog(blogService)
+        blogService.getTestData().observe(this@HomeActivity, Observer {
+            if (it is Outcome.Success) {
+                debugLog("Blog Test data says: ${it.data}")
+            }
+        })
+
     }
 
     override fun onPause() {

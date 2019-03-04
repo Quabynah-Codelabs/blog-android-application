@@ -2,12 +2,10 @@ package io.codelabs.blog.view
 
 import android.os.Bundle
 import android.view.View
-import com.google.firebase.FirebaseApp
 import io.codelabs.blog.R
 import io.codelabs.blog.core.BlogRootActivity
 import io.codelabs.blog.util.color
 import io.codelabs.blog.util.intentTo
-import io.codelabs.sdk.util.debugLog
 import io.github.tonnyl.whatsnew.item.item
 import io.github.tonnyl.whatsnew.item.whatsNew
 import io.github.tonnyl.whatsnew.util.PresentationOption
@@ -17,9 +15,6 @@ class WelcomeActivity : BlogRootActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
-
-        val app = FirebaseApp.initializeApp(this)
-        debugLog(app?.name)
 
         val whatsnew = whatsNew {
             item {

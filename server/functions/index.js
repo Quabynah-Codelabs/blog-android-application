@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 // API
-exports.app = functions.https.onRequest(app)
+exports.api = functions.https.onRequest(app)
 
 // Test data
 exports.helloWorld = functions.https.onRequest((request, response) => {

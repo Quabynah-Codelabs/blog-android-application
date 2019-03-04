@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "489144798988",
+    "firebase_url": "https://blog-android-application.firebaseio.com",
+    "project_id": "blog-android-application",
+    "storage_bucket": "blog-android-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489144798988:android:c17a9e95868c0469",
+        "android_client_info": {
+          "package_name": "io.codelabs.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489144798988-j0dsf4s7ce43sdp39ilh15mb1jqilkr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.codelabs.blog",
+            "certificate_hash": "700d1215534a2cae5cb6e1b87e27d38e59ffa6ce"
+          }
+        },
+        {
+          "client_id": "489144798988-ajen8v93k71esqmbkmgio6g2bbqsee20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD87iwCMrlhwccNGj1s-8dsnbfRbiQhtpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489144798988-ajen8v93k71esqmbkmgio6g2bbqsee20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

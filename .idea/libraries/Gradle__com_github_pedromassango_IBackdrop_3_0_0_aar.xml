@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.pedromassango:IBackdrop:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0708c0f85d559958fb47fe66d60620f7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0708c0f85d559958fb47fe66d60620f7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.pedromassango/IBackdrop/3.0.0/29f86f71e005b4ff012d801351858cf5913859b1/IBackdrop-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

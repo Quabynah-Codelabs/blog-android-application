@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:layout_marginStart="@dimen/spacing_micro"
+                                                   android:layout_marginTop="@dimen/spacing_micro"
+                                                   android:layout_marginEnd="@dimen/spacing_micro"
+                                                   app:cardBackgroundColor="@color/background_card"
+                                                   app:cardCornerRadius="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:padding="@dimen/spacing_micro">
+
+        <io.codelabs.widget.BaselineGridTextView android:layout_width="0dp"
+                                                 app:layout_constraintStart_toStartOf="parent"
+                                                 app:layout_constraintTop_toTopOf="parent"
+                                                 tools:text="Google Express --- 15 minutes ago"
+                                                 android:id="@+id/blog_sender"
+                                                 android:textColor="@color/text_secondary_dark"
+                                                 style="@style/BlogAppTheme.SubTitle1"
+                                                 android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

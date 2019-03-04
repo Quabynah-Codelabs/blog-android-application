@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Quabynah-Codelabs.quabynah-codelabs-sdk:bypass:v1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37f203402ff93cc957ff4564df8c470b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/37f203402ff93cc957ff4564df8c470b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Quabynah-Codelabs.quabynah-codelabs-sdk/bypass/v1.1/316519fd8724840feb81f13de1556e3cd4c2eb0b/bypass-v1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

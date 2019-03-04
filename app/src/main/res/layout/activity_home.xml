@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            tools:context=".view.HomeActivity"
+            android:id="@+id/container">
+
+        <!--Frame Layout for fragments-->
+        <FrameLayout android:layout_width="match_parent"
+                     android:id="@+id/home_frame"
+                     android:layout_marginBottom="?attr/actionBarSize"
+                     android:layout_height="match_parent"/>
+
+        <!--Bottom Bar-->
+        <com.google.android.material.bottomappbar.BottomAppBar android:id="@+id/bottom_app_bar"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="wrap_content"
+                                                               android:layout_gravity="bottom|center_horizontal"
+                                                               app:fabAlignmentMode="center"
+                                                               app:logo="@drawable/logo_white_large"
+                                                               style="@style/BlogAppTheme.BottomBar"
+                                                               app:navigationIcon="@drawable/ic_arrow_drop_up"/>
+
+        <!--FAB-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@+id/fab"
+                                                                               android:src="@drawable/ic_edit"
+                                                                               style="@style/BlogAppTheme.FAB"
+                                                                               app:backgroundTint="@color/colorSecondary"
+                                                                               android:layout_width="wrap_content"
+                                                                               android:layout_height="wrap_content"
+                                                                               app:layout_anchor="@id/bottom_app_bar"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

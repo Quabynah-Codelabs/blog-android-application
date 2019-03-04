@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="BlogAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorBackgroundFloating">@color/app_scrim</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/background_light</item>
+
+        <!--Text Appearance-->
+        <item name="textAppearanceHeadline1">@style/BlogAppTheme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/BlogAppTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/BlogAppTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/BlogAppTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/BlogAppTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/BlogAppTheme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/BlogAppTheme.SubTitle1</item>
+        <item name="textAppearanceSubtitle2">@style/BlogAppTheme.SubTitle2</item>
+        <item name="textAppearanceBody1">@style/BlogAppTheme.Body1</item>
+        <item name="textAppearanceBody2">@style/BlogAppTheme.Body2</item>
+        <item name="textAppearanceCaption">@style/BlogAppTheme.Caption</item>
+        <item name="textAppearanceOverline">@style/BlogAppTheme.Overline</item>
+        <item name="textAppearanceButton">@style/BlogAppTheme.Button.TextAppearance</item>
+    </style>
+
+    <style name="BlogAppTheme.Welcome">
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <style name="BlogAppTheme.Auth">
+        <item name="android:statusBarColor">@color/background_lightish</item>
+        <item name="android:navigationBarColor">@color/background_lightish</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="BlogAppTheme.Main">
+        <item name="android:statusBarColor">@color/background_lightish</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <!--TEXT APPEARANCES-->
+    <style name="BlogAppTheme.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/work_sans_light</item>
+        <item name="android:textSize">96sp</item>
+    </style>
+    <style name="BlogAppTheme.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/work_sans_semibold</item>
+        <item name="android:textSize">60sp</item>
+    </style>
+    <style name="BlogAppTheme.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">48sp</item>
+    </style>
+    <style name="BlogAppTheme.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="BlogAppTheme.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="fontFamily">@font/work_sans_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="BlogAppTheme.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/work_sans_medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="BlogAppTheme.SubTitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BlogAppTheme.SubTitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/work_sans_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="BlogAppTheme.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="BlogAppTheme.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="BlogAppTheme.Button.TextAppearance" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/work_sans_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="BlogAppTheme.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="BlogAppTheme.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/work_sans_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--WIDGETS-->
+    <style name="BlogAppTheme.BottomBar" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="fabCradleMargin">@dimen/spacing_normal</item>
+        <item name="fabCradleRoundedCornerRadius">@dimen/spacing_micro</item>
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="BlogAppTheme.FAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:tint">@color/black</item>
+        <item name="fabSize">auto</item>
+        <item name="backgroundTint">@color/colorSecondary</item>
+    </style>
+    <style name="BlogAppTheme.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/padding_large</item>
+        <item name="iconPadding">@dimen/padding_normal</item>
+        <item name="android:layout_marginEnd">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="iconTint">@color/dark_icon</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+    </style>
+
+    <style name="BlogAppTheme.AppbarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="BlogAppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Blog Android</string>
+    <string name="get_started">Get started</string>
+    <string name="transition_fab">transition_fab</string>
+    <string name="add_to_drafts">Add to Drafts</string>
+    <string name="archive">Archive</string>
+</resources>

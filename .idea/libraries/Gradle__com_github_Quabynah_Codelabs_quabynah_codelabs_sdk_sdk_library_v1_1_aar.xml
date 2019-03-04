@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Quabynah-Codelabs.quabynah-codelabs-sdk:sdk-library:v1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55490ea513100dde180a55676fba4c6f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/55490ea513100dde180a55676fba4c6f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Quabynah-Codelabs.quabynah-codelabs-sdk/sdk-library/v1.1/45c8a66fb3651652dd5e38cf3da28f363d33f83f/sdk-library-v1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -10,7 +10,9 @@ import androidx.lifecycle.Observer
 import io.codelabs.blog.R
 import io.codelabs.blog.core.BlogRootActivity
 import io.codelabs.blog.databinding.ActivityHomeBinding
+import io.codelabs.blog.util.addFragment
 import io.codelabs.blog.util.intentTo
+import io.codelabs.blog.view.fragment.InboxFragment
 import io.codelabs.sdk.util.debugLog
 import io.codelabs.sdk.util.network.Outcome
 
@@ -36,6 +38,11 @@ class HomeActivity : BlogRootActivity() {
                 debugLog("Current User: $it")
             }
         }
+
+        // Set default
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.home_frame, InboxFragment())
+            .commit()
     }
 
     override fun onPause() {
@@ -56,6 +63,24 @@ class HomeActivity : BlogRootActivity() {
         when (item?.itemId) {
             R.id.menu_search -> {
                 intentTo(SearchActivity::class.java)
+            }
+            R.id.menu_inbox -> {
+                addFragment(R.id.home_frame, InboxFragment())
+            }
+            R.id.menu_drafts -> {
+                addFragment(R.id.home_frame, InboxFragment())
+            }
+            R.id.menu_sent -> {
+                addFragment(R.id.home_frame, InboxFragment())
+            }
+            R.id.menu_spam -> {
+                addFragment(R.id.home_frame, InboxFragment())
+            }
+            R.id.menu_trash -> {
+                addFragment(R.id.home_frame, InboxFragment())
+            }
+            R.id.menu_starred -> {
+                addFragment(R.id.home_frame, InboxFragment())
             }
         }
         return super.onOptionsItemSelected(item)

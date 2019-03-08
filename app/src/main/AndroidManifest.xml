@@ -17,20 +17,17 @@
         <activity android:name=".view.AuthActivity"
                   android:theme="@style/BlogAppTheme.Auth"
                   android:configChanges="orientation|screenLayout|screenSize"/>
+        <activity android:name=".view.HomeActivity"
+                  android:theme="@style/BlogAppTheme.Main"
+                  android:configChanges="orientation|screenLayout|screenSize">
 
-
-        <activity android:name=".view.WelcomeActivity"
-                  android:theme="@style/BlogAppTheme.Welcome"
-                  android:configChanges="orientation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
-        <activity android:name=".view.HomeActivity"
-                  android:theme="@style/BlogAppTheme.Main"
-                  android:configChanges="orientation|screenLayout|screenSize"/>
         <activity android:name=".view.DetailsActivity"
                   android:theme="@style/BlogAppTheme.Main"/>
         <activity android:name=".view.CreateBlogActivity"

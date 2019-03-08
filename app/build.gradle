@@ -23,6 +23,19 @@ android {
                                      "$projectDir/schemas".toString()]
             }
         }
+
+        buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
+        buildConfigField 'String', 'GIT_COMMIT', "\"${gitCommitCount}\""
+
+        buildConfigField "String", "CLIENT_ID", "\"36c7ef7717c0625a45e5467412f4dc130de7a3e4a382a403ef49a27f689f8712\""
+        buildConfigField "String", "CLIENT_SECRET", "\"6a955922757bc7e339f75b1b19ef130a531a0ddebc24aefdba27c83b203b0e4a\""
+        buildConfigField "String", "UNSPLASH_CLIENT_ID", "\"2850253e1dac29b4d0086e0b54a720ac279f21a39bce41c1a2904d01c128fa92\""
+        buildConfigField "String", "UNSPLASH_CLIENT_SECRET", "\"bfcdc1a38263e041ee788d91cbb4d0d681888e75d4b841341d8c0c285b8a1c09\""
+        buildConfigField "String", "DRIBBBLE_AUTH_CALLBACK", "\"io.codelabs.prodesigner://dribbble-auth-callback\""
+        buildConfigField "String", "UNSPLASH_AUTH_CALLBACK", "\"io.codelabs.prodesigner://unsplash-auth-callback\""
+        buildConfigField "String", "DATABASE_NAME", "\"prodesigner_db\""
+        buildConfigField "String", "DRIBBBLE_DATABASE_NAME", "\"prodesigner_dribbble_db\""
+        buildConfigField "String", "UNSPLASH_DATABASE_NAME", "\"prodesigner_unsplash_db\""
     }
     buildTypes {
         release {
@@ -52,6 +65,7 @@ dependencies {
     def koin = "2.0.0-beta-1"
     def room = "2.1.0-alpha04"
     def lifecycle = "2.0.0"
+    def gson = '2.8.4'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -84,6 +98,18 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle"
     kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
+
+    implementation 'com.etebarian:meow-bottom-navigation:1.0.0'
+
+    // Logging
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.13.1'
+
+    // Gson
+    implementation "com.google.code.gson:gson:$gson"
+
+    // Material Dialogs
+    implementation 'com.afollestad.material-dialogs:core:2.0.0'
+    implementation 'com.afollestad.material-dialogs:input:2.0.0'
 
 }
 apply plugin: 'com.google.gms.google-services'

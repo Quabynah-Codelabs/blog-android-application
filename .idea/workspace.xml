@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/view/HomeActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="60">
               <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="240">
               <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1479">
@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/io/codelabs/blog/BuildConfig.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -123,7 +123,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/AuthActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/WelcomeActivity.kt" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/core/room/BloagAppDao.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/model/SearchableItem.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/core/room/BlogAppDatabase.kt" />
@@ -161,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/view/HomeActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/core/BlogRootFragment.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
@@ -323,8 +323,8 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="C:/Android/sdk" />
-    <property name="device.picker.selection" value="Pixel_3_XL_API_28" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ug-short-course/android-applications/todo-application" />
+    <property name="device.picker.selection" value="041604a481080402" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -436,7 +436,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23985009" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23961662" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -466,19 +466,12 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
+      <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="Added Vue web" />
     <option name="LAST_COMMIT_MESSAGE" value="Added Vue web" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.koin/koin-android/2.0.0-beta-1/72a8c4ffad31143dd9479658aa2cdaf3edef1b64/koin-android-2.0.0-beta-1-sources.jar!/org/koin/android/ext/koin/ModuleExt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -503,9 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/anim/post_story_exit.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/anim/post_story_exit.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/core/room/BlogAppDatabase.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -526,26 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/whatsnew/0.1.2/9416bc889a55efbf0ace775c57c8700c0fd89a99/whatsnew-0.1.2-sources.jar!/io/github/tonnyl/whatsnew/util/PresentationOption.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fde98f0943c1d540260febc05de16ed/jars/classes.jar!/com/google/android/material/bottomappbar/BottomAppBar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/drawable/ic_search_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/drawable/ic_search_black_24dp.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.tonnyl/whatsnew/0.1.2/9416bc889a55efbf0ace775c57c8700c0fd89a99/whatsnew-0.1.2-sources.jar!/io/github/tonnyl/whatsnew/util/PresentationOption.kt" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8fde98f0943c1d540260febc05de16ed/jars/classes.jar!/com/google/android/material/bottomappbar/BottomAppBar.class" />
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/drawable/ic_search_24dp.xml" />
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res/drawable/ic_search_black_24dp.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -811,9 +786,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/io/codelabs/blog/BuildConfig.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/io/codelabs/blog/view/HomeActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
@@ -821,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="240">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
@@ -833,14 +809,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/io/codelabs/blog/BuildConfig.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="335">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />

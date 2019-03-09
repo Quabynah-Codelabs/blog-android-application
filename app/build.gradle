@@ -13,8 +13,8 @@ android {
         applicationId "io.codelabs.blog"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode gitCommitCount
-        versionName gitSha
+        versionCode /*gitCommitCount*/ 1
+        versionName /*gitSha*/ "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         javaCompileOptions {
@@ -24,8 +24,8 @@ android {
             }
         }
 
-        buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
-        buildConfigField 'String', 'GIT_COMMIT', "\"${gitCommitCount}\""
+//        buildConfigField 'String', 'GIT_SHA', "\"${gitSha}\""
+//        buildConfigField 'String', 'GIT_COMMIT', "\"${gitCommitCount}\""
 
         buildConfigField "String", "CLIENT_ID", "\"36c7ef7717c0625a45e5467412f4dc130de7a3e4a382a403ef49a27f689f8712\""
         buildConfigField "String", "CLIENT_SECRET", "\"6a955922757bc7e339f75b1b19ef130a531a0ddebc24aefdba27c83b203b0e4a\""

@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.Quabynah-Codelabs.quabynah-codelabs-sdk:codelabsdk:v1.1@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66b92f60d4124a570a4ac7cbcaba6291/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/147306c145714e78ac5bd573e53bea50/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66b92f60d4124a570a4ac7cbcaba6291/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66b92f60d4124a570a4ac7cbcaba6291/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
